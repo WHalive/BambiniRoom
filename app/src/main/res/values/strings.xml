@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BambiniAppWithRoom</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="page_is_empty">Page is empty</string>
+    <string name="bambinifashion_com">BAMBINIFASHION.COM</string>
+    <string name="menu">Menu</string>
+    <string name="home">Home</string>
+    <string name="bag">Bag</string>
+    <string name="search">Search</string>
+    <string name="designer">Designer</string>
+    <string name="bag_is_empty">Bag is empty</string>
+    <string name="design_is_empty">Design is empty</string>
+    <string name="home_is_empty">Home is empty</string>
+    <string name="menu_is_empty">Menu is empty</string>
+    <string name="search_is_empty">Search is empty</string>
+</resources>
