@@ -10,8 +10,8 @@ import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.bambini.databinding.FragmentHomeBinding
 import com.example.bambini.homeRecyclerView.HomeRecyclerViewAdapter
-import com.example.bambinifashion.home.HomeViewPagerAdapter
 import com.example.bambini.viewmodel.LandingViewModel
+import com.example.bambinifashion.home.HomeViewPagerAdapter
 import com.example.bambinifashion.viewmodel.PromotionViewModel
 
 class HomeFragment : Fragment() {

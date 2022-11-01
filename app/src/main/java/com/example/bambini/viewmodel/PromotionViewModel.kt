@@ -5,10 +5,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.bambini.repository.PromotionRepository
 import com.example.bambinifashion.database.BambiniDatabase
 import com.example.bambinifashion.database.PromotionEntity
-import com.example.bambini.internet.FashionApi
-import com.example.bambini.repository.PromotionRepository
 import kotlinx.coroutines.launch
 
 class PromotionViewModel : ViewModel() {
@@ -28,7 +27,7 @@ class PromotionViewModel : ViewModel() {
     private fun getAllPromotionItems() {
         viewModelScope.launch {
             try {
-               _promotionEntity.value = listOf(FashionApi.retrofitService.getPromotion())
+                repository.insertItems()
                 Log.d("HomeViewModel", "getAllItems: ${_promotionEntity.value}")
             } catch (e: Exception) {
                 Log.e("BambiniViewModel", e.message.orEmpty())

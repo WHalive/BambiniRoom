@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.bambinifashion.database.BambiniDatabase
 import com.example.bambini.entity.LandingEntity
 import com.example.bambini.repository.LandingRepository
+import com.example.bambinifashion.database.BambiniDatabase
 import kotlinx.coroutines.launch
 
 class LandingViewModel : ViewModel() {

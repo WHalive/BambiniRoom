@@ -53,7 +53,7 @@ interface FashionApiService {
 //    suspend fun getPromotion(): Proline
 
     @GET("v1/user:proline")
-    suspend fun getPromotion(): PromotionEntity
+    suspend fun getPromotion(): List<PromotionEntity>
 }
 
 object FashionApi {
